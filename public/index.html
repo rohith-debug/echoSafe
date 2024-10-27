@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SOS Reporting Platform</title>
+</head>
+<body>
+    <header>
+        <h1>SOS Reporting Platform</h1>
+    </header>
+
+    <main>
+        <div id="sos-button-container">
+            <input type="text" id="sos-message-input" placeholder="Enter SOS message..." />
+            <button id="sos-button">SOS</button>
+            <div id="alert-message"></div>
+        </div>
+
+        <div id="location-status"></div>
+
+        <div id="comments-section">
+            <h2>Comments</h2>
+            <textarea id="comment-input" placeholder="Share your experience..." rows="4"></textarea>
+            <button id="submit-comment">Submit</button>
+            <button id="voice-comment-button">🎤</button>
+            <div id="comments-list"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
